@@ -1,0 +1,13 @@
+/* Stylesheet for Rocket Paper Scissors */
+
+.title-and-instructions {
+    text-align: center;
+}
+
+.title {
+    color: tomato;
+}
+
+.instructions {
+    font-weight: bold;
+}
