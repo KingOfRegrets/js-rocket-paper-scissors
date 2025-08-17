@@ -60,9 +60,9 @@ function playGame(){
     }
 
     if (humanScore == 5){
-        console.log(`You win. You have ${humanScore} wins, and the computer has ${computerScore}.`);
+        console.log(`You win the game. You have ${humanScore} wins, and the computer has ${computerScore}.`);
     } else {
-        console.log(`You lose. The computer has ${computerScore} wins, and you have ${humanScore}.`);
+        console.log(`You lose the game. The computer has ${computerScore} wins, and you have ${humanScore}.`);
     }
 }
 
