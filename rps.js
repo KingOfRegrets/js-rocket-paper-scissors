@@ -51,7 +51,7 @@ function playRound(humanChoice, computerChoice){
         computerScore++;
     }
 
-    console.log(`The score is now ${humanScore} to ${computerScore}.);
+    console.log(`The score is now ${humanScore} to ${computerScore}.`);
 }
 
 let humanScore = 0;
