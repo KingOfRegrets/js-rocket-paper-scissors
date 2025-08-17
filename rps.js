@@ -54,9 +54,20 @@ function playRound(humanChoice, computerChoice){
     console.log(`The score is now ${humanScore} to ${computerScore}.`);
 }
 
+function playGame(){
+    while (humanScore < 5 && computerScore <5) {
+        playRound(getHumanChoice, getComputeChoice)
+    }
+
+    if (humanScore == 5){
+        console.log(`You win. You have ${humanScore} wins, and the computer has ${computerScore}.`);
+    } else {
+        console.log(`You lose. The computer has ${computerScore} wins, and you have ${humanScore}.`);
+    }
+}
+
 let humanScore = 0;
-let computerScore =0;
+let computerScore = 0;
 
 console.log("Welcome to a game of rock paper scissors! ")
-playRound(getHumanChoice, getComputeChoice);
-console.log("Check this is working well.");
+playGame();
