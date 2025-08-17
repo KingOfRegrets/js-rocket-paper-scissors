@@ -51,7 +51,7 @@ function playRound(humanChoice, computerChoice){
         computerScore++;
     }
 
-    console.log(`The score is now ${humanScore} to ${computerScore}.);
+    console.log(`The score is now ${humanScore} to ${computerScore}.`);
 }
 
 let humanScore = 0;
@@ -59,3 +59,4 @@ let computerScore =0;
 
 console.log("Welcome to a game of rock paper scissors! ")
 playRound(getHumanChoice, getComputeChoice);
+console.log("Check this is working well.");
